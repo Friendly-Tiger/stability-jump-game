@@ -1,0 +1,36 @@
+
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: 'Segoe UI', sans-serif;
+  background: radial-gradient(ellipse at center, #0a0f1e 0%, #000000 100%);
+  color: #ffffff;
+}
+#ui {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 10;
+}
+#brand {
+  font-size: 24px;
+  font-weight: bold;
+  color: #00ffd9;
+  margin-bottom: 8px;
+}
+#score {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+#connectWallet {
+  padding: 8px 16px;
+  background: #00ffd9;
+  border: none;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+}
+canvas {
+  display: block;
+}
